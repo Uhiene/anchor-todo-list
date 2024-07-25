@@ -46,7 +46,7 @@ anchor keys list
 
 ```toml
 [programs.devnet]
-todo_list_app = "<ADD YOUR ADDRESS HERE>"
+todo_list_app = "Dc6oT2GzU6iTRw7xh4QJjybFQmrA3wFLy6DRKPxwGc5W"
 ```
 
 6. Update your [`lib.rs`](programs/todo-list-app/src/lib.rs) file by adding the the address generated in step 4 to the `declare_id!()` macro
